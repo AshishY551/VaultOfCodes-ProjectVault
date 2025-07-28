@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Yadav – Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-...hash..." crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <!-- ===== Collapsible Left Sidebar (icon‑driven) ===== -->
+    <aside id="leftBar" class="sidebar left">
+        <!-- Collapsed icon strip (always visible / sticky) -->
+        <nav class="icon‑rail">
+            <button class="toggle" data-target="leftBar" title="Expand / Collapse">☰</button>
+            <a href="#about"    title="About"><i class="fa-solid fa-user"></i></a>
+            <a href="#skills"   title="Skills"><i class="fa-solid fa-wrench"></i></a>
+            <a href="#projects" title="Projects"><i class="fa-solid fa-diagram-project"></i></a>
+            <a href="#contact"  title="Contact"><i class="fa-solid fa-envelope"></i></a>
+        </nav>
+
+        <!-- Expanded content (revealed on .expanded) -->
+        <div class="panel">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Core Competencies</a></li>
+                <li><a href="#projects">Flagship Initiatives</a></li>
+                <li><a href="#contact">Connect with Me</a></li>
+            </ul>
+        </div>
+    </aside>
+    <!-- ===== Page Wrapper ===== -->
+    <div class="page">
+        <!-- ===== Responsive Animated Header ===== -->
+        <header id="appHeader">
+            <div class="brand">
+                <span class="logo">AY</span>
+                <h1 class="name">Ashish Yadav</h1>
+            </div>
+
+            <!-- Desktop Nav -->
+            <nav class="nav‑links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <!-- Mobile Hamburger -->
+            <button id="hamburger" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <!-- Mobile Drawer -->
+            <nav class="drawer" id="drawer">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <!-- ===== Main Content ===== -->
+        <main id="content">
+
+        <!-- ===== About ===== -->
+        <section id="about" class="card fade">
+            <h2><i class="fa-solid fa-user"></i> About Me</h2>
+            <p>
+                I am a results-driven <em>Full‑Stack Developer</em> with a proven ability to architect, design, and deliver
+                scalable digital solutions. My expertise spans both front-end and back-end technologies, empowering me to build
+                robust, user-centric applications with seamless performance. With a foundation in <em>Web Development</em> and a
+                passion for solving complex technical challenges, I bring a blend of strategic thinking, hands-on coding, and
+                product-oriented innovation to every project I undertake.
+            </p>
+
+        </section>
+
+        <!-- ===== Skills & Interests Grid ===== -->
+        <section class="grid‑two">
+            <!-- Skills -->
+            <div id="skills" class="card pop">
+            <h2><i class="fa-solid fa-wrench"></i> Core Competencies</h2>
+            <ul class="bullet‑list">
+                <li>Front‑End Development ( Html, HTML5, Php, JavaScript)</li>
+                <li>Front‑End Development ( CSS3, Tailwindcss + Tailwind Cli, PostCss)</li>
+                <li>Responsive Design &amp; UX Best Practices</li>
+                <li>Version Control &amp; CI/CD (Git, GitHub Actions)</li>
+            </ul>
+            <ul class="bullet‑list" >
+                <li>Languages  ( C++, Python, Java)</li>
+                <li>Database  ( MySql, PostgreSQL, Mongodb)</li>
+            </ul>
+            </div>
+
+            <!-- Interests -->
+            <div id="interests" class="card pop delay">
+            <h2><i class="fa-solid fa-lightbulb"></i> Strategic Interests</h2>
+            <ol class="ordered‑list">
+                <li>Artificial Intelligence</li>
+                <li>App Development</li>
+                <li>Cloud‑Native Architecture</li>
+                <li>Data‑Driven Product Innovation</li>
+                <li>Human‑Centric Design Thinking</li>
+            </ol>
+            </div>
+        </section>
+
+        <!-- ===== Projects Section ===== -->
+        <section id="projects" class="card fade">
+        <h2><i class="fa-solid fa-diagram-project"></i> Flagship Initiatives</h2>
+
+        <div class="project-grid">
+            <!-- Project 1 -->
+            <article class="proj-card pop">
+            <div class="proj-header">
+                <h3>TaskForge – A Cloud‑Native To‑Do Manager</h3>
+                <span class="badge">Task-Manager</span>
+            </div>
+            <p>
+                TaskForge is a single‑page productivity app that enables users to create, read, update, and delete tasks in real time. It combines a modern React front end with a cloud‑hosted MongoDB Atlas backend to ensure data persistence, horizontal scalability, and sub‑second user interactions.
+            </p>
+            <div class="proj-links">
+                <a class="cta" href="https://github.com/AshishY551/todoFrontend" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i> GitHub -Not working
+                </a>
+                <a class="cta" href="https://todofrontend-cwmy.onrender.com/" target="_blank" rel="noopener">
+                <i class="fa-solid fa-globe"></i> Live Demo-working
+                </a>
+            </div>
+            </article>
+            <!-- Project 2 -->
+            <article class="proj-card pop delay">
+            <div class="proj-header">
+                <h3>NeoCart – Modern E-commerce Frontend UI
+                </h3>
+                <span class="badge">E-commerce</span>
+            </div>
+            <p>
+                Cara is a fully responsive, high-performance e-commerce frontend built using modern web technologies. Designed with a mobile-first approach and rich UI/UX patterns, it mimics the functionality of leading platforms like Amazon, Flipkart, and Meesho, delivering a seamless shopping experience for users.
+            </p>
+            <div class="proj-links">
+                <a class="cta" href="https://github.com/username/project" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i> GitHub -Not working
+                </a>
+                <a class="cta" href="https://trendycart-ecommerce154.netlify.app/" target="_blank" rel="noopener">
+                <i class="fa-solid fa-globe"></i> Live Demo-working
+                </a>
+            </div>
+            </article>
+        </div>
+
+        <!-- div 2 -->
+        <div class="project-grid">
+
+            <!-- Project 1 -->
+            <article class="proj-card pop">
+            <div class="proj-header">
+                <h3>ProBlog NX</h3>
+                <span class="badge">ProBlog</span>
+            </div>
+            <p>
+                ProBlog NX delivers a clean MVC architecture, bullet‑proof security controls, and horizontal‑scaling headroom—while remaining 100 % compatible with a local XAMPP stack for rapid development. It’s “framework‑light”: core logic uses modern PHP features (namespaces, attributes, typed properties) and Composer libraries instead of a full monolith like Laravel, giving you finer operational control.
+            </p>
+            <div class="proj-links">
+                <a class="cta" href="https://github.com/your-username/project-alpha" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i> GitHub -In Progress
+                </a>
+                <a class="cta" href="https://your-alpha-demo.com" target="_blank" rel="noopener">
+                <i class="fa-solid fa-globe"></i> Live Demo -In Progress
+                </a>
+            </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="proj-card pop delay">
+            <div class="proj-header">
+                <h3>InsightSphere – Advanced Business Intelligence & Analytics Dashboard</h3>
+                <span class="badge">Analytics</span>
+            </div>
+            <p>
+                An AI-powered dashboard for real-time data visualisation using Python, D3.js, and Flask. Help decision makers.
+                InsightSphere is a full-stack web-based analytics dashboard that enables businesses to visualize KPIs, monitor real-time data streams, and make data-driven decisions. The system supports dynamic querying, role-based access, and predictive analytics powered by machine learning.
+
+
+            </p>
+            <div class="proj-links">
+                <a class="cta" href="https://github.com/your-username/project-beta" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i> GitHub -Comming soon
+                </a>
+                <a class="cta" href="https://your-beta-demo.com" target="_blank" rel="noopener">
+                <i class="fa-solid fa-globe"></i> Live Demo -Comming soon
+                </a>
+            </div>
+            </article>
+
+        </div>
+        </section>
+
+
+        <!-- ===== Contact Section ===== -->
+        <section id="contact" class="card pop">
+        <h2><i class="fa-solid fa-envelope-circle-check"></i> Get in Touch</h2>
+        <p>
+            Whether you're looking for a reliable developer, want to discuss a potential collaboration, or simply say hello —
+            I'd love to hear from you.
+        </p>
+        <h2><i class="fa-solid fa-envelope-circle-check"></i> Working Contact Links Below</h2>
+
+        <div class="contact-grid">
+            <!-- Contact Info -->
+            <div class="contact-info">
+            <p><strong>Email:</strong> <a href="https://github.com/AshishY551">laganesh108@gmail.com</a></p>
+            <p><strong>Location:</strong> Remote & On-site (Flexible)</p>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-icons">
+            <a href="https://www.linkedin.com/in/ashish-yadav-940795279/" target="_blank" aria-label="LinkedIn" rel="noopener">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/AshishY551" target="_blank" aria-label="GitHub" rel="noopener">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="laganesh108@gmail.com" target="_blank" aria-label="Email" rel="noopener">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            </div>
+        </div>
+
+        <div class="cta-row">
+            <a href="mailto:youremail@example.com" class="cta-button">
+            <i class="fa-solid fa-paper-plane"></i> Send Me a Message
+            </a>
+        </div>
+        </section>
+
+
+        </main>
+
+        <!-- ===== Footer ===== -->
+        <!-- ===== Advanced Animated Footer ===== -->
+        <footer>
+        <div class="footer-content">
+            <!-- Branding -->
+            <div class="footer-brand">
+            <h2>Ashish Yadav</h2>
+            <p>Creating impact through code and creativity. Let's build something amazing together.</p>
+            </div>
+
+            <!-- Navigation -->
+            <div class="footer-links">
+            <h3>Explore</h3>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </div>
+
+            <!-- Social Media -->
+            <div class="footer-social">
+            <h3>Connect</h3>
+            <div class="social-icons">
+                <a href="https://github.com/AshishY551" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ashish-yadav-940795279/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="laganesh108@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <small>&copy; 2025 Your Name. All rights reserved.</small>
+        </div>
+        </footer>
+
+    </div>
+    <!-- ===== Collapsible Right Sidebar (icon‑driven) ===== -->
+    <aside id="rightBar" class="sidebar right">
+        <!-- Collapsed icon strip (always visible / sticky) -->
+        <nav class="icon‑rail">
+            <button class="toggle" data-target="rightBar" title="Expand / Collapse">☰</button>
+            <a href="https://github.com/AshishY551"  title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ashish-yadav-940795279/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="laganesh108@gmail.com"     title="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#top"                             title="Back to Top"><i class="fa-solid fa-arrow-up"></i></a>
+        </nav>
+
+        <!-- Expanded content (revealed on .expanded) -->
+        <div class="panel">
+            <h3>External Links</h3>
+            <ul>
+                <li><a href="https://github.com/AshishY551" target="_blank" rel="noopener">GitHub Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/ashish-yadav-940795279/" target="_blank" rel="noopener">LinkedIn Profile</a></li>
+                <li><a href="laganesh108@gmail.com">Send Email</a></li>
+                <li><a href="#top">Back to Top</a></li>
+            </ul>
+        </div>
+    </aside>
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

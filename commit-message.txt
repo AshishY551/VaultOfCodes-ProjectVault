@@ -1,0 +1,8 @@
+✨ Build responsive Personal Portfolio Page (Assignment 1) using HTML
+
+- Created index.html for VerybasicPortfolioPage under Assignment 1
+- Included semantic HTML5 layout with collapsible sidebars and animated header
+- Sections: About Me, Skills & Interests, Projects, Contact, Footer
+- Used Font Awesome icons for improved UI and accessibility
+- Project cards showcase live demos and GitHub links
+- Fully structured and ready for future CSS and JavaScript enhancements

@@ -1,9 +1,7 @@
-💄 Add custom styles.css for Personal Portfolio layout and responsiveness
+✨ Add script.js for sidebar toggles, header scroll effects, and mobile nav drawer
 
-- Designed responsive grid and layout structure (main, sidebar, header, footer)
-- Styled collapsible left/right sidebars with icon-rail navigation
-- Added transitions, card animations (fade, pop, delay) for smooth UI experience
-- Implemented dark/light color scheme balance and hover effects for links/buttons
-- Styled project cards, contact section, and strategic footer layout
-- Included mobile-friendly responsive adjustments and drawer menu styles
-- Used utility classes to support modern UI/UX design patterns
+- Enabled dynamic left/right sidebar expansion via toggle buttons
+- Added sticky header scroll behavior for better UX
+- Implemented mobile hamburger menu with open/close functionality
+- Auto-closes drawer on link click to improve mobile usability
+- Used data attributes and query selectors for clean, scalable logic

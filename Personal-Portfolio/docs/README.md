@@ -1,6 +1,4 @@
-feat: ✅Updated Project plan and Folder structure.
-
- # Project details
+# Project details
 
 Perfect — aiming for a **high-value, future-ready personal portfolio** that’s:
 
@@ -57,3 +55,35 @@ Perfect — aiming for a **high-value, future-ready personal portfolio** that’
 │
 └── .gitignore
 ```
+
+---
+
+## 🧠 **Design Philosophy / Approaches Used**
+
+| Approach                      | Implementation                                                             |
+| ----------------------------- | -------------------------------------------------------------------------- |
+| **1. Direct Code**            | Main `index.html`, main CSS/JS are hand-coded directly with full markup    |
+| **2. Modular Components**     | Inside `/components/` folder — reusable HTML parts like modals, cards      |
+| **3. Backend-Ready Frontend** | Placeholder buttons (e.g., Edit/Delete), modal forms ready for integration |
+
+---
+
+## 🎯 Must-Have Features (Already Considered)
+
+✅ Animated sidebars (left + right)
+✅ Collapsible nav with icons
+✅ Scroll effects on header
+✅ Mobile hamburger menu
+✅ Cards for each project
+✅ Links to GitHub / live demo
+✅ Footer with contact/social info
+✅ Responsive grid
+✅ Custom animations (e.g., fade, pop, scale, etc.)
+✅ Placeholder buttons: **Edit / Delete / Download / Contact** — future backend ready
+✅ Modal windows (certificates / contact)
+✅ Slider for featured items / testimonials
+✅ Light/dark mode toggle _(optional, recommend adding later)_
+✅ Form validation structure _(basic logic ready for enhancement)_
+✅ SEO tags + fast page load
+
+---

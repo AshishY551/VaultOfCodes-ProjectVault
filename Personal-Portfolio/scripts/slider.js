@@ -1,0 +1,1 @@
+// slider.js                 # Future: slider/auto-scroll interactions

@@ -1,0 +1,1 @@
+// modal.js                  # Future: modal open/close logic

@@ -1,1 +1,15 @@
 <!-- project-card.html         # Reusable project card (with placeholder buttons) -->
+ <!-- components/project-card.html -->
+<article class="proj-card fade">
+  <div class="proj-header">
+    <h3>My Portfolio Project</h3>
+    <span class="badge">Full Stack</span>
+  </div>
+  <p>This project demonstrates frontend + backend integration, CRUD operations, and scalable layout structure using Tailwind and JS modules.</p>
+  <div class="proj-links">
+    <a class="cta" href="https://github.com/yourname/project" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+    <a class="cta" href="https://yourname.netlify.app" target="_blank"><i class="fa-solid fa-globe"></i> Live</a>
+    <button class="cta" onclick="editProject()">✏️ Edit</button>
+    <button class="cta" onclick="deleteProject()">🗑️ Delete</button>
+  </div>
+</article>

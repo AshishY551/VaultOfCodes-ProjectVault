@@ -1,1 +1,10 @@
 <!-- modal-certificate.html    # Modal to view/download certificate (future) -->
+ <!-- components/modal-certificate.html -->
+<div id="certModal" class="modal hidden">
+  <div class="modal-content">
+    <span class="close" onclick="toggleCertModal()">&times;</span>
+    <h2>Certificate Preview</h2>
+    <embed src="assets/certificates/cert1.pdf" type="application/pdf" width="100%" height="400px">
+    <p><a href="assets/certificates/cert1.pdf" download class="cta">⬇ Download PDF</a></p>
+  </div>
+</div>

@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
       integrity="sha512-...hash..." crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- head2.1 -->
+    <link rel="stylesheet" href="styles/animations.css">
+    <script defer src="scripts/modal.js"></script>
+    <script defer src="scripts/slider.js"></script>
+    <script defer src="scripts/backend-stub.js"></script>
 </head>
 <body>
     <!-- ===== Collapsible Left Sidebar (icon‑driven) ===== -->
@@ -199,6 +205,27 @@
         </section>
 
 
+        <!-- Featured Slider -->
+        <!-- ===== Featured Slider Section ===== -->
+        <section id="featured" class="card pop">
+        <h2><i class="fa-solid fa-star"></i> Featured Highlights</h2>
+        <div data-include="components/slider-featured.html"></div>
+        </section>
+
+
+        <!-- ===== Projects Section (Dynamic Cards) ===== -->
+        <section id="projects" class="card fade">
+        <h2><i class="fa-solid fa-diagram-project"></i> Flagship Initiatives</h2>
+        <div class="project-grid">
+            <div data-include="components/project-card.html"></div>
+            <div data-include="components/project-card.html"></div>
+            <div data-include="components/project-card.html"></div>
+            <!-- Add or remove cards as needed -->
+        </div>
+        </section>
+
+
+
         <!-- ===== Contact Section ===== -->
         <section id="contact" class="card pop">
         <h2><i class="fa-solid fa-envelope-circle-check"></i> Get in Touch</h2>
@@ -305,5 +332,14 @@
     
 
     <script src="scripts/script.js"></script>
+      <!-- Scripts -->
+    <script src="scripts/loader.js"></script>
+    <script src="scripts/script.js"></script>
+
+    <!-- Auto Slider Logic -->
+<link rel="stylesheet" href="styles/slider.css">
+<script src="scripts/slider-data.js" defer></script>
+<script src="scripts/slider.js" defer></script>
+
 </body>
 </html>

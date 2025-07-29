@@ -1,23 +1,10 @@
-🧩 Added modular UI templates: header, footer, and expandable sidebars
+feat: Set up internship carousel page with modular folder structure
 
-✔ Created reusable header and footer partials for dynamic page loading
-   • To be injected into index via JS fetch()
-   • Clean layout and consistent styling for branding sections
-
-✔ Developed expandable left sidebar (navigation menu)
-   • Includes accessible toggle button with animation
-   • Contains structured nav links: Home, Upload, Dashboard, Verify, Contact
-   • Responsive design using `transform: translateX(-100%)` with smooth slide-in effect
-
-✔ Developed expandable right sidebar (user/account options)
-   • Toggle support with matching smooth slide-in animation from right
-   • Contains user-specific nav: Profile, Settings, Theme Toggle, Logout
-
-✔ Sidebar toggle logic wired via shared JS `toggleSidebar(id)` function
-✔ Sidebar styles are scoped using BEM-style IDs and flexible classes
-✔ Visual consistency ensured using modern hover transitions and icon-enhanced links
-✔ Component classes support light mode by default and align with dark mode fallback in global CSS
-
-🛠 These templates are plug-and-play ready and support modular layout architecture
-🧱 Foundation for scalable, multi-page UI navigation and future login/theme logic
-
+- Created InternshipPage/ project folder with 3-part separation:
+  - internship.html: Base structure for internship listings
+  - style.css: Styles for layout, cards, and responsive design
+  - script.js: Carousel logic placeholder (to be implemented)
+- Added semantic HTML5 structure with header, section, and footer areas
+- Included 4 detailed internship cards (Web, AI/ML, UI/UX, DevOps)
+- Applied mobile-friendly viewport settings and clean class naming
+- Used "Apply Now" and "Details" buttons in each card for interaction

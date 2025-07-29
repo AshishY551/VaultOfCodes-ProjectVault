@@ -1,0 +1,54 @@
+<aside class="sidebar right-sidebar" id="rightSidebar">
+    <button class="toggle-btn" onclick="toggleSidebar('rightSidebar')">☰</button>
+    <nav class="sidebar-nav">
+        <a href="#profile">👤 Profile</a>
+        <a href="#settings">⚙️ Settings</a>
+        <a href="#theme">🌓 Toggle Theme</a>
+        <a href="#logout">🚪 Logout</a>
+    </nav>
+</aside>
+
+<style>
+    .right-sidebar {
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 200px;
+        background-color: #ffffff;
+        border-left: 1px solid #ddd;
+        box-shadow: -2px 0 8px rgba(0, 0, 0, 0.05);
+        padding: 20px;
+        transition: transform 0.3s ease;
+        transform: translateX(100%);
+        z-index: 1000;
+    }
+
+    .right-sidebar.open {
+        transform: translateX(0);
+    }
+
+    .sidebar-nav a {
+        display: block;
+        margin-bottom: 16px;
+        color: #333;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .sidebar-nav a:hover {
+        color: #007bff;
+    }
+
+    .toggle-btn {
+        position: absolute;
+        left: -30px;
+        top: 20px;
+        background: #007bff;
+        color: #fff;
+        border: none;
+        padding: 6px 10px;
+        border-radius: 4px 0 0 4px;
+        cursor: pointer;
+    }
+</style>

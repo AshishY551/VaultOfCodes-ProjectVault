@@ -1,0 +1,157 @@
+/* ===== Global Styles ===== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to right, #f3f4f6, #e5e7eb);
+  color: #111827;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+h1,
+h2 {
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin: 0.5rem 0 1rem 0;
+}
+
+/* ===== Header Section ===== */
+.page-header {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.page-header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.page-header p {
+  color: #6b7280;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ===== Carousel Section ===== */
+.carousel-section {
+  padding: 2rem 1rem;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  gap: 1.5rem;
+  transition: transform 0.5s ease-in-out;
+  scroll-behavior: smooth;
+  overflow-x: auto;
+  padding: 1rem;
+}
+
+.internship-card {
+  min-width: 300px;
+  max-width: 320px;
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-shrink: 0;
+}
+
+.internship-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.internship-card h2 {
+  color: #1f2937;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.internship-card .location {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.internship-card ul li {
+  color: #374151;
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+/* ===== Buttons ===== */
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn.apply {
+  background-color: #2563eb;
+  color: #fff;
+}
+
+.btn.apply:hover {
+  background-color: #1d4ed8;
+}
+
+.btn.details {
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+.btn.details:hover {
+  background-color: #e5e7eb;
+}
+
+/* ===== Carousel Controls ===== */
+.carousel-controls {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.carousel-controls button {
+  padding: 0.6rem 1rem;
+  margin: 0 0.5rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.carousel-controls button:hover {
+  background-color: #1d4ed8;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .carousel {
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+
+  .internship-card {
+    min-width: 280px;
+  }
+}

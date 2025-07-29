@@ -1,10 +1,28 @@
-feat: Set up internship carousel page with modular folder structure
+feat: Build complete responsive internship carousel page with HTML, CSS, and JS
 
-- Created InternshipPage/ project folder with 3-part separation:
-  - internship.html: Base structure for internship listings
-  - style.css: Styles for layout, cards, and responsive design
-  - script.js: Carousel logic placeholder (to be implemented)
-- Added semantic HTML5 structure with header, section, and footer areas
-- Included 4 detailed internship cards (Web, AI/ML, UI/UX, DevOps)
-- Applied mobile-friendly viewport settings and clean class naming
-- Used "Apply Now" and "Details" buttons in each card for interaction
+- Structured `internship.html` using semantic HTML5 with a clean layout
+  - Included header section with page title and subtitle
+  - Created internship cards with job titles, locations, skills, and CTAs
+  - Organized cards inside a scrollable carousel container
+  - Added Prev/Next buttons for navigation
+
+- Styled components in `style.css` for modern and accessible UI
+  - Global reset and typography using Segoe UI and Tailwind-style spacing
+  - Header section with box-shadow and centered content
+  - Carousel layout with horizontal scroll, flexbox gap, and card shadows
+  - Responsive behavior using media queries for mobile support
+  - Hover transitions for cards and buttons with brand-aligned colors
+
+- Added interactivity in `script.js` to enhance UX
+  - Implemented horizontal scroll logic via Prev/Next buttons using `scrollBy()`
+  - Configured smooth scrolling behavior with customizable scroll step
+  - Included optional autoplay functionality (commented for future use)
+  - Added Apply Now button event to simulate submission alert interaction
+
+- Project structured in modular format:
+  InternshipPage/
+  ├── internship.html
+  ├── style.css
+  └── script.js
+
+Result: A polished, interactive internship listing page with responsive design, hover animations, and interactive buttons, ready for showcase or deployment.
